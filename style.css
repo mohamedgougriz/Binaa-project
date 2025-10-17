@@ -231,19 +231,25 @@ header {
 
     .propertytype {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-top: 50px;
 
-        h1 {}
+        h1 {
+
+        }
 
         .buttona {
             .buttonaa {
-                padding: 3px;
+                height: 30px;
+                width: 30px;
                 border: #ffffff solid 1px;
-                border-radius: 30px;
+                border-radius: 5px;
 
                 p {
+                    margin: 0;
                     color: #e74c3c;
                     font-weight: bold;
                 }
@@ -251,12 +257,14 @@ header {
             }
 
             .buttonab {
-                padding: 3px;
-                border-radius: 30px;
+                height: 30px;
+                width: 30px;
+                border-radius: 5px;
                 border: #e74c3c solid 1px;
                 background-color: #e74c3c;
 
                 p {
+                    margin: 0;
                     font-weight: bold;
                     color: #ffffff;
                 }
@@ -278,13 +286,18 @@ header {
             background-color: rgb(213, 211, 211, 0.6);
             padding: 40px;
             border-radius: 30px;
+            justify-content: center;
+            height: 150px;
+            width: 150px;
 
             .img {
+                margin: 0;
                 margin-bottom: 10px;
             }
 
             h4 {
-                margin-bottom: 5px;
+                margin: 0;
+                margin-bottom: 2px;
             }
 
             p {
@@ -301,15 +314,21 @@ header {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             background-color: rgb(213, 211, 211, 0.6);
             padding: 40px;
             border-radius: 30px;
+            margin: 0;
+            height: 150px;
+            width: 150px;
 
             .img {
+                margin: 0;
                 margin-bottom: 10px;
             }
 
             h4 {
+                margin: 0;
                 margin-bottom: 2px;
             }
 
@@ -324,15 +343,19 @@ header {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             background-color: rgb(213, 211, 211, 0.6);
             padding: 40px;
             border-radius: 30px;
+            margin: 0;
+            height: 150px;
+            width: 150px;
 
-            .img {
+            .img {margin: 0;
                 margin-bottom: 10px;
             }
 
-            h4 {
+            h4 {margin: 0;
                 margin-bottom: 2px;
             }
 
@@ -347,15 +370,21 @@ header {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             background-color: rgb(213, 211, 211, 0.6);
             padding: 40px;
             border-radius: 30px;
+            margin: 0;
+            height: 150px;
+            width: 150px;
 
             .img {
+                margin: 0;
                 margin-bottom: 10px;
             }
 
             h4 {
+                margin: 0;
                 margin-bottom: 2px;
             }
 
@@ -370,23 +399,115 @@ header {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             background-color: rgb(213, 211, 211, 0.6);
             padding: 40px;
             border-radius: 30px;
+            margin: 0;
+            height: 150px;
+            width: 150px;
 
             .img {
+                margin: 0;
                 margin-bottom: 10px;
             }
 
             h4 {
+                margin: 0;
                 margin-bottom: 2px;
             }
 
             p {
-                margin: 2px;
+                margin: 0;
                 color: rgb(113, 113, 113);
                 font-size: x-small;
             }
         }
     }
+}
+.sectiontree{
+    .popularresidences{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        h1{
+
+        }
+        p{
+            a{
+                text-decoration: none;
+                color: rgb(113, 113, 113);
+
+            }
+        }
+    }
+    .examples{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        .houseone{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: first baseline;
+            border: solid 2px gray;
+            border-radius: 8px;
+            margin: 0;
+            img{
+                border-radius: 8px;
+                border: rgb(158, 158, 158) 2px solid;
+                height: 180px;
+                width: 200px;
+                margin: 4px;
+            }
+            h1{margin: 0;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: medium;
+                margin-top: 10px;
+                
+
+
+            }
+            p{margin: 0;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: small;
+                margin-top: 10px;
+
+            }
+            div{margin: 0;
+                display: flex;
+                justify-content: first baseline;
+                margin-top: 10px;
+                .h2one{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: #e74c3c;
+                    font-size: medium;
+                    margin: 0;
+                }
+                .h2two{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: medium;
+                    margin: 0;
+
+                }
+
+            }
+
+        }
+        .housetwo{
+
+        }
+        .housetree{
+
+        }
+        .housefour{
+
+        }
+    }
+
 }
